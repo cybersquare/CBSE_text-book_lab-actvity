@@ -1,0 +1,13 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.description{
+    width: 1000px;
+
+}

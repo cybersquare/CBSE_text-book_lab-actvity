@@ -1,0 +1,1 @@
+print('"John asked, Do you know python?"')
