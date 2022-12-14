@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average</title>
+</head>
+<body onload="findAvg()">
+
+      
+</body>
+</html>
+
+<script type="text/javascript">
+    function findAvg()
+    {
+        var maths = parseFloat(prompt("Enter your mark in maths: "))  
+        var english = parseFloat(prompt("Enter your mark in english: "))
+        var science = parseFloat(prompt("Enter your mark in science: "))
+        console.log(maths, english,science )
+        var average = (maths + english + science) / 3;
+        console.log('avg',average)
+        if (average > 90){
+            alert('You are an excellent student')
+            alert('Keep up the good work')
+        }
+    }
+</script>

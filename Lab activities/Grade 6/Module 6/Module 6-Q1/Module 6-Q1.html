@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concate</title>
+</head>
+<body>
+        Username : <input type="text" id="usr" required/> <br><br>
+        Password : <input type="password" id="psw" required/> <br><br>
+        <button onclick="validate()"> validate </button><br><br>
+        <div id="value"></div>
+      
+</body>
+</html>
+
+<script type="text/javascript">
+    function validate()
+    {
+        var usr = document.getElementById('usr').value  
+        var psw = document.getElementById('psw').value
+        
+        if (usr.length == 0){
+            document.getElementById('value').innerHTML = "User name must not be empty"
+        }
+        else if (psw.length < 6){
+            document.getElementById('value').innerHTML = "Password length must be grater than 6"
+        }
+        else{
+            document.getElementById('value').innerHTML = "Valid username and password"
+        }
+    }
+</script>

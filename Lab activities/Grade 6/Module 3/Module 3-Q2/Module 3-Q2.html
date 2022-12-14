@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concate</title>
+</head>
+<body>
+        First text : <input type="text" id="first" /> <br><br>
+        Last text : <input type="text" id="last" /> <br><br>
+        <button onclick="concateText()"> Concate </button><br><br>
+        <h3>concatenated text : </h3><br>
+        <div id="concat"></div>
+      
+</body>
+</html>
+
+<script type="text/javascript">
+    function concateText()
+    {
+        var first = document.getElementById('first').value  
+        var last = document.getElementById('last').value
+        console.log(first, last)
+        document.getElementById('concat').innerHTML = first + ' ' + last
+    }
+</script>
