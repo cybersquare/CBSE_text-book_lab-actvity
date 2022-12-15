@@ -1,6 +1,6 @@
-body{
+body {
     margin: 0;
-    padding: 0 ;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: yellow;
     margin-top: -20px;
@@ -9,6 +9,7 @@ body{
     align-items: center;
     font-style: italic;
 }
+
 
 /* .headingDiv{
     width: 100%;

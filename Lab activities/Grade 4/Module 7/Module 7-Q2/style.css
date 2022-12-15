@@ -7,7 +7,7 @@ body {
 .headingDiv {
     width: 100%;
     height: 150px;
-    background-color: rgb(247, 231, 142);
+    background-color: rgb(82, 170, 189);
     margin-top: -20px;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgb(89, 180, 180);
+    background-color: rgb(243, 255, 138);
 }
 
 .links {
