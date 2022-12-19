@@ -1,0 +1,32 @@
+Python Virtual Environment is  a tool that helps to keep the dependencies required by different projects separated by creating isolated Python environments for them.
+Install python from python.org.  
+“pip” (Package manager for python modules) will also get installed while installing Python.
+
+Installing Virtual Environment - Windows
+Search “cmd” on the search bar of Windows and open a command prompt.
+To install virtual environment in Windows, execute the following commands in the command prompt:
+       pip install virtualenv
+
+Then, create a directory for virtual environment. You have to browse to the directory using command line instructions.
+Execute the following command to create a virtual environment.
+       virtualenv gameenv(gameenv is the name of virtual environment. You can have your own name)
+
+Installing Virtual Environment - Mac/ Linux
+Open a terminal.
+Execute the following command in the terminal
+       pip install virtualenv
+
+Then, create a directory for virtual environment. You can go to the directory in terminal using command line instructions.
+Execute the following command to create a virtual environment.
+       virtualenv env1 (env1 is the name of virtual environment. You can have your own name)
+
+You can activate the virtual environment by executing the following command:
+       Windows:     <environment name>\Scripts\activate
+	Mac/Linux:      source <environment name>/bin/activate
+       
+You can deactivate the environment using the command:
+	deactivate
+
+
+
+
