@@ -1,10 +1,10 @@
-You have to install django in the virtual environment you have created. Use the following command for the same after activating the virtual environment.
+You have to install Django in the virtual environment you have created. Use the following command for the same after activating the virtual environment.
 	pip install django
 
 Create a project(web application) in the current directory.
     django-admin startproject myproject
 
-Project structure created is as follows:
+The project structure created is as follows:
 myproject/(Folder)
 	manage.py
 	myproject/(Folder)
@@ -13,7 +13,7 @@ myproject/(Folder)
     	      urls.py
     	      wsgi.py
 
-Running django project
+Running Django project
 To verify that your Django project works, browse in terminal/ cmd into the outer myproject directory and execute the command:
     python manage.py runserver
 

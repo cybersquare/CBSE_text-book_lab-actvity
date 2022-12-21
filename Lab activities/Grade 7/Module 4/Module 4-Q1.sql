@@ -4,7 +4,7 @@
 CREATE DATABASE db_school;
 
 --Query to use the database created 
-use db_school
+use db_school;
 
 --Query to create the table tbl_department
 CREATE TABLE tbl_department(pk_int_dept_id INT NOT NULL AUTO_INCREMENT,
