@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=im, initial-scale=1.0">
-    <title>Albert Einstein</title>
+    <title>Gift box</title>
 </head>
-<body style="background:black; color: white">
-   <button onclick="openTheBox()" id="close"><img src="https://www.pngall.com/wp-content/uploads/2/Closed-Treasure-Chest-PNG-Clipart.png" alt="Box" width="500" height="600"></button><br><br>
 
-   <div id="open" style="display: none;">
-    <img src="https://cdn.pixabay.com/photo/2014/04/03/10/31/treasure-chest-310778_960_720.png" alt="Box" width="500" height="600"></div>
+<body style="background:black; color: white">
+    <button onclick="openTheBox()" id="close"><img src="https://www.pngall.com/wp-content/uploads/2/Closed-Treasure-Chest-PNG-Clipart.png" alt="Box" width="500" height="600"></button><br><br>
+
+    <div id="open" style="display: none;">
+        <img src="https://cdn.pixabay.com/photo/2014/04/03/10/31/treasure-chest-310778_960_720.png" alt="Box" width="500" height="600"></div>
 </body>
+
 </html>
 <script type="text/javascript">
-function openTheBox() {
-    var r= confirm("Do you really want to continue");
-        if (r==true)
-        {
+    function openTheBox() {
+        var r = confirm("Do you really want to continue");
+        if (r == true) {
             var open = document.getElementById("open");
             open.style.display = "block";
             var close = document.getElementById("close");
             close.style.display = "none";
         }
-       
-        }
-    
+
+    }
 </script>
