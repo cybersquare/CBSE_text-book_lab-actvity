@@ -1,4 +1,4 @@
-##Python program to print even numbers from 1 to 20 separated by commas using a print statement.
+#Python program to print even numbers from 1 to 20 separated by commas using a print statement.
 
 even_nums = []
 for i in range(2,21,2):
